@@ -907,6 +907,7 @@ img {
   display: block;
 }
 
+
 .d-slideup .sideup-text:first-of-type .up-text {
   -webkit-transition-delay: .1s;
   -o-transition-delay: .1s;
@@ -914,13 +915,10 @@ img {
   font-size: 90px;
 }
 
-/* custom css */
-@media (max-width: 749px) {
-	.up-text {
-  font-size: 60px;
 
-	}
-}
+
+/* custom css */
+
 
 .d-slideup .sideup-text:nth-of-type(2) .up-text {
   -webkit-transition-delay: .4s;
@@ -10410,3 +10408,13 @@ header.in-box {
 }
 
 /* ====================== [ End Responsive ] ====================== */
+
+
+@media only screen and (max-width: 749px)  {
+	.up-text {
+		text-align:center;
+       font-size: 60px!important;
+	}
+}
+
+
